@@ -1,0 +1,160 @@
+<html lang="en-US">
+<style>
+
+img {
+   max-width: 100%;
+  max-height: 100vh;
+}
+
+body {
+   background-image: url(images/backgrounds/400.GIF);
+}
+
+div {margin-top: 2vh;}
+   
+.grid{
+    display: grid;
+    position: fixed;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+}
+
+.b {
+    grid-column-start: 7;
+    grid-row-start: 1;
+    margin-top: 5vh;
+}
+
+.a{
+   margin-bottom: -20%
+}
+
+.hover_image:hover {text-decoration: none} 
+.hide {display:none} 
+.hover_image:hover 
+   img:first-child{display:none} .hover_image:hover
+   img:last-child{display:inline-block}
+
+.flex-container {
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -8vh;
+}
+
+    audio::-webkit-media-controls {
+        display: none;
+    }
+
+h1{
+   text-align: left;
+      padding-left: 100px;
+   font-family: 'Positions By Arixbored', monospace;
+   font-size: 7vw;
+   color:rgb(24, 173, 41);
+   text-shadow: 4px 4px 4px #000000;   }
+h2{
+   text-align: left;
+   padding-left: 18%;
+      font-size: 40px;
+   font-family: 'Positions By Arixbored', monospace;
+   color:rgb(181, 240, 188);
+   text-shadow: 4px 4px 4px #000000;  
+}
+
+    </style>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Behlke</title>
+  </head>
+
+<body> 
+
+   <div class="grid">
+      <div class="b">
+         <a class="hover_image" href="index.html">
+            <img src="images/choochoo.png" />
+            <img src="images/choochoothroo.png" class="hide"/>
+         </a>
+      </div>
+   </div>
+
+    <script type="text/javascript">
+        function Play()
+        {
+            var myAudio = document.getElementById("audio1");
+            if(myAudio.paused)
+            {
+                myAudio.play();
+            }
+            else
+            {
+               myAudio.pause();
+            }
+         }
+   </script>
+
+<div class="div";></div>
+
+<div class="flex-container">
+   <div class="div1">
+    <img src="images/music/radio1.png" onClick="Play()">
+      <audio id="audio1" src="audio/mouse.ogg" ></audio>
+
+<h2>Click on the radio to listen</h2>
+<h2>to music while you browse!</h2>
+
+</div>
+   <div class="div2">
+      <a class="hover_image">
+         <img src="images/music/cd34.png"/>
+         <img src="images/music/cd342.png" class="hide"/>
+      </a>
+   </div>
+    </div>
+</div>
+
+<div class="flex-container">
+   <div class="div5">
+      <a class="hover_image" href="https://distrokid.com/hyperfollow/whosasking/you-probably-havent-heard-of-it/">
+         <img src="images/music/cd12.png"/>
+         <img src="images/music/cd122.png" class="hide"/>
+      </a>
+   </div>
+   <div class="div4">
+      <img src="images/music/cd5.png">
+   </div>
+</div>
+
+<div class="flex-container">
+   <div class="div1">
+      <img src="images/music/cd6.png">
+   </div>
+   <div class="div5">
+      <a class="hover_image">
+         <img src="images/music/cd67.png"/>
+         <img src="images/music/cd672.png" class="hide"/>
+      </a>
+   </div>
+</div>
+
+<div class="flex-container">
+   <div class="div5">
+      <a class="hover_image">
+         <img src="images/music/cd92.png"/>
+         <img src="images/music/cd9.png" class="hide"/>
+      </a>
+   </div>
+   <div class="div4">
+      <img src="images/music/cd8.png">
+   </div>
+</div>
+
+</body>
+
+</html>

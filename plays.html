@@ -1,0 +1,115 @@
+<html lang="en-US">
+<style>
+
+img {
+   max-width: 100%;
+   max-height: 100vh;
+   min-width: 100px;
+}
+
+body {
+   background-image: url(images/backgrounds/087C.jpg);
+}
+
+.space{
+   margin-top: 4vh;
+}
+
+.grid{
+    display: grid;
+    position: fixed;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+}
+
+.b {
+    grid-column-start: 7;
+    grid-row-start: 1;
+    margin-top: -4vh;
+}
+
+.a{
+   margin-bottom: -20%
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    gap: 2px;
+    padding: 2px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.hover_image:hover {text-decoration: none} 
+.hide {display:none} 
+.hover_image:hover 
+   img:first-child{display:none} .hover_image:hover
+   img:last-child{display:inline-block}
+
+div {
+    margin-top: 10px;
+}
+
+h1{
+   text-align: left;
+   padding-left: 100px;
+   font-family: 'Positions By Arixbored', monospace;
+   font-size: 7vw;
+   color:rgb(24, 173, 41);
+   text-shadow: 4px 4px 4px #000000;   
+}
+h2{
+   text-align: left;
+   padding-left: 5%;
+      font-size: 40px;
+   font-family: 'Positions By Arixbored', monospace;
+   color:rgb(181, 240, 188);
+   text-shadow: 4px 4px 4px #000000;  
+}
+
+    </style>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Behlke</title>
+  </head>
+
+<body>
+   <div class="grid">
+      <div class="b">
+         <a class="hover_image" href="index.html">
+            <img src="images/choochoo.png" />
+            <img src="images/choochoothroo.png" class="hide"/>
+         </a>
+      </div>
+   </div>
+
+   <div class="space">
+   </div>
+
+<div>
+<h2>This is my library.</h2>
+<h2>Here, you can find information on the plays I have written.</h2>
+</div>
+
+<div class="flex-container">
+   <a class="hover_image" href="productions.html">
+     <img src="images/plays/founders1.png"/>
+     <img src="images/plays/founders11.png" class="hide"/>
+   </a>
+
+   <a class="hover_image">
+     <img src="images/plays/directoryplays11.png"/>
+     <img src="images/plays/directoryplays11-2.png" class="hide"/>
+   </a>
+
+   <a class="hover_image" href="https://newplayexchange.org/users/62015/aurora-behlke">
+     <img src="images/plays/infernoo.png" />
+     <img src="images/plays/infernooo.png" class="hide"/>
+   </a>
+</div>
+
+   </body> 

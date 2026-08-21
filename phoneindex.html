@@ -1,0 +1,133 @@
+<html lang="en-US">
+<style>
+
+img {
+   max-width: 100%;
+  max-height: 100vh;
+}
+
+body {
+   background-image: url(images/backgrounds/carpet4.png);
+}
+
+div{
+   margin-top: -20px;
+}
+
+.hover_image:hover {text-decoration: none} 
+.hide {display:none} 
+.hover_image:hover 
+   img:first-child{display:none} .hover_image:hover
+   img:last-child{display:inline-block}
+
+
+.flex-container {
+  display: flex;
+    flex-flow: row wrap;
+  padding-bottom: -10%;
+  padding-top: 5%;
+  list-style: none;
+  justify-content: space-around;
+  align-items: flex-end;
+
+}
+
+h1{
+   text-align: left;
+      padding-left: 5%;
+   font-family: 'Positions By Arixbored', monospace; 
+   font-size: 50px;
+   color:rgb(24, 173, 41);
+   text-shadow: 4px 4px 4px #000000;   }
+h2{
+   text-align: left;
+   padding-left: 5%;
+      font-size: 30px;
+   font-family: 'Positions By Arixbored', monospace;
+   color:rgb(181, 240, 188);
+   text-shadow: 4px 4px 4px #000000;   }
+
+h3{
+   font-size: 30px;
+   font-family: 'Positions By Arixbored', monospace;
+   color:rgb(181, 240, 188);
+   text-shadow: 4px 4px 4px #000000;  
+   align-items: center;
+   margin-top: -1%;
+   }
+
+a:link{
+    color:rgb(24, 173, 41);
+}
+a:visited {
+  color: rgb(24, 173, 41);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color:floralwhite;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+    </style>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Behlke</title>
+  </head>
+
+<body> 
+
+<header>
+  <h1>Aurora Behlke</h1>
+</header>
+
+<div>
+<h2>Welcome to my intergalactic space office! Tap on an image to take a look at my work.</h2>
+</div>
+
+<div class="flex-container">
+  <a class="hover_image" href="phoneplays.html">
+     <img src="images/phone/papers.png"/>
+     <img src="images/phone/papers.png" class="hide"/>
+  </a>
+</div>
+
+<h3 style="text-align: center;">Plays</h3>
+
+<div class="flex-container">
+  <a class="hover_image" href="phonemusic.html">
+     <img src="images/phone/accordion.png"/>
+     <img src="images/phone/accordion.png" class="hide"/>
+  </a>
+</div>
+
+<h3 style="text-align: center;">Music</h3>
+
+<div class="flex-container">
+  <a class="hover_image" href="phoneprojects.html">
+     <img src="images/phone/mug3.png"/>
+     <img src="images/phone/mug3.png" class="hide"/>
+  </a>
+</div>
+
+<h3 style="text-align: center;">Projects</h3>
+
+<div class="flex-container">
+  <a class="hover_image" href="phoneabout.html">
+     <img src="images/phone/computer.png"/>
+     <img src="images/phone/computer.png" class="hide"/>
+  </a>
+</div>
+
+<h3 style="text-align: center;">About</h3>
+
+</body>
+
+</html>
